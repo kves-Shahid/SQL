@@ -54,7 +54,7 @@ DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
 DB_PASS=yourpassword
-DB_NAME=sco
+DB_NAME=lms
 
 5. BACKEND FILES OVERVIEW
 
