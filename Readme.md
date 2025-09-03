@@ -133,7 +133,7 @@ git push -u origin main
 #   Server: localhost
 #   Port: 3306
 #   User: root
-#   Password: Pias123@
+#   Password: ********
 #   Default DB: sco
 #   Save as plaintext or prompt
 
