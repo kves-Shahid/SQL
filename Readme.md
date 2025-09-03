@@ -1,6 +1,4 @@
-==============================
 FULLSTACK SQL PROJECT SETUP
-==============================
 
 PROJECT STRUCTURE:
 Database_Project/
@@ -17,10 +15,7 @@ Database_Project/
 └── sql/
     └── schema.sql
 
-
-==============================
 1. BACKEND SETUP (Node.js + Express)
-==============================
 
 cd backend
 
@@ -40,9 +35,7 @@ npm install --save-dev nodemon
 npm run dev
 
 
-==============================
 2. FRONTEND SETUP (React)
-==============================
 
 cd ../frontend
 
@@ -52,10 +45,7 @@ npx create-react-app .
 # Start frontend
 npm start
 
-
-==============================
 3. SQL SETUP (MySQL)
-==============================
 
 # Go to SQL scripts folder
 cd ../sql
@@ -71,10 +61,7 @@ SELECT * FROM salesman;
 SELECT * FROM customer;
 SELECT * FROM orders;
 
-
-==============================
 4. ENVIRONMENT SETUP (.env file)
-==============================
 
 # Create a `.env` file in /backend with the following content:
 
@@ -84,10 +71,7 @@ DB_USER=root
 DB_PASS=yourpassword
 DB_NAME=sco
 
-
-==============================
 5. BACKEND FILES OVERVIEW
-==============================
 
 # db.js (MySQL connection)
 const mysql = require('mysql2');
@@ -129,10 +113,7 @@ app.listen(3001, () => {
   console.log('Backend running on http://localhost:3001');
 });
 
-
-==============================
 6. FRONTEND FETCH EXAMPLE
-==============================
 
 # Use this in a React component (e.g., useEffect)
 
@@ -142,10 +123,7 @@ useEffect(() => {
     .then(data => console.log(data));
 }, []);
 
-
-==============================
 7. OPTIONAL: GIT + GITHUB SETUP
-==============================
 
 # Initialize Git
 git init
@@ -161,9 +139,7 @@ git commit -m "Initial commit"
 git push -u origin main
 
 
-==============================
 8. VS CODE SQLTools USAGE
-==============================
 
 # Open SQLTools sidebar (left bar)
 # Right-click → "New Connection"
@@ -182,11 +158,9 @@ git push -u origin main
 # Run Queries:
 # Highlight query → Ctrl+E Ctrl+E
 
-
-==============================
-ALL DONE ✅
-==============================
 Now you can run:
 - SQL in SQLTools or terminal
 - Backend via `npm run dev`
 - Frontend via `npm start`
+
+Waka time management---https://wakatime.com/@8bfb26b9-68d1-4472-aa67-061141229311/projects/cupdgzomyx
