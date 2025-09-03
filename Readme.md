@@ -1,20 +1,5 @@
 FULLSTACK SQL PROJECT SETUP
 
-PROJECT STRUCTURE:
-Database_Project/
-│
-├── backend/
-│   ├── index.js
-│   ├── db.js
-│   ├── routes/
-│   └── .env
-│
-├── frontend/
-│   └── (React files)
-│
-└── sql/
-    └── schema.sql
-
 1. BACKEND SETUP (Node.js + Express)
 
 cd backend
